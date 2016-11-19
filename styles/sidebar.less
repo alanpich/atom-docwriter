@@ -1,0 +1,34 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.docwriter.sidebar {
+  min-height: 100%;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+
+  section {
+    flex-grow: 1;
+  }
+
+  footer {
+    .btnbar {
+      display: flex;
+      flex-direction: row;
+
+      .btn {
+        margin: 0;
+        flex: 1;
+        border-radius: 0;
+        border-right: none;
+
+        &:first-child {
+          border-left: none;
+        }
+      }
+    }
+  }
+}

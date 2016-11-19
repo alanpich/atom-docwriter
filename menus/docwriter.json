@@ -1,0 +1,27 @@
+{
+  "context-menu": {
+    "atom-workspace": [
+
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "DocWriter",
+          "submenu": [
+            {
+              "label": "New Project",
+              "command": "docwriter:create-project"
+            },
+            {
+              "label": "Toggle",
+              "command": "docwriter:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

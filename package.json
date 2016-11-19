@@ -1,0 +1,15 @@
+{
+  "name": "atom-docwriter",
+  "main": "./lib/docwriter",
+  "version": "0.0.0",
+  "description": "DocWriter Documentation Utilities integration for Atom IDE",
+  "keywords": [
+  ],
+  "repository": "https://github.com/alanpich/atom-docwriter",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
